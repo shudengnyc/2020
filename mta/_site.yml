@@ -7,8 +7,12 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: "test_about"
+      href: _site/about.html     
+    - text: "test_abc"
+      href: test/index.html   
 output:
   html_document:
-    theme: cosmo
+    theme: cerulean
     highlight: textmate
     css: styles.css
